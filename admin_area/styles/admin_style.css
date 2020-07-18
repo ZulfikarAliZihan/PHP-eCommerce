@@ -1,0 +1,99 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body{
+    background-color: #cccc;
+}
+
+table{
+    box-align: center;
+    text-align: center;
+border:1px solid;
+width: 800;
+}
+td{
+border:1px solid;
+width: 800;
+}
+th{
+    colspan: 7;
+    text: center;
+    font-size: 22px;
+}
+
+
+
+
+.main_wrapper{
+    width: 1000px;
+    height: auto;
+    background-color:lightcoral;
+    margin: auto;
+}
+#header{
+    width: 1000px;
+    height: 200px;
+    background-image: url('../images/header.png');
+    border-bottom:3px solid cadetblue;
+}
+#left{
+    width: 200px;
+    height: auto;
+    border-right: 3px solid cadetblue;
+    background-color:lightcoral;
+    float: left;
+}
+#right{
+    width: 797px;
+    height: auto;
+    
+    background-color: burlywood;
+    float: right;
+}
+
+#left a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin-left: 10px;
+    padding: 5px;
+    margin: 4px;
+    font-family: initial;
+    display:block;
+    background-color: rgb(71, 190, 47);
+}
+
+view{
+    line-height: 70px;
+}
+
+
